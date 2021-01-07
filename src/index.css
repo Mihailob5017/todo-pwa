@@ -18,6 +18,22 @@ code {
     monospace;
 }
 
-.text-shadow{
+.text-shadow {
   text-shadow: 2px 2px 4px black;
+}
+
+.h-screen-75 {
+  height: 75vh;
+}
+
+.h-screen-75 {
+  height: 75vh;
+}
+
+.h-screen-25 {
+  height: 25vh;
+}
+
+.h-screen-50 {
+  height: 50vh;
 }
