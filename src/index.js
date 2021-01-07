@@ -2,10 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import {Provider} from './context/context.state'
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 
-ReactDOM.render(<App />, document.getElementById('root')
+ReactDOM.render(
+    <Provider>
+        <App />
+    </Provider>, document.getElementById('root')
 );
 serviceWorkerRegistration.register();
 
